@@ -101,7 +101,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener{
         }
     }
     private void transitionSocialMediaActivity(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, TwitterUsers.class);
         startActivity(intent);
         finish();
     }
